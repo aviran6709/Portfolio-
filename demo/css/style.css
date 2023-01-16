@@ -335,8 +335,8 @@ margin-top: 50px;
 .card__image{
   width: 300px;
   height: 500px;
-  border: 2px  #FFD700 solid;
-  box-shadow:  4px 8px #ffd9007d;
+ 
+  box-shadow:  4px 8px #0000007d;
 object-fit: fill;
 }
 .cards{
