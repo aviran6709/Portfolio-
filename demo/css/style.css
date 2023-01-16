@@ -274,6 +274,15 @@ height: 80px;
   transform: scale(2,2);
   margin-right:  95px;
 }
+
+
+@media screen and (max-width: 450px){
+  .header__tools:hover{
+    margin-right: 0px;
+    
+  } 
+}
+
 .header__list{
   display: flex;
   flex-direction: row;
@@ -328,11 +337,12 @@ margin-top: 50px;
   height: 500px;
   border: 2px  #FFD700 solid;
   box-shadow:  4px 8px #ffd9007d;
+object-fit: fill;
 }
 .cards{
   display: flex;
   flex-direction: row;
-
+flex-wrap: wrap;
 }
 
 @media screen and (max-width: 450px) {
